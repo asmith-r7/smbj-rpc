@@ -54,6 +54,7 @@
       <thirdparty.testng.version>6.11</thirdparty.testng.version>
       <thirdparty.bouncycastle.version>1.68</thirdparty.bouncycastle.version>
       <thirdparty.testcontainers.version>1.16.0</thirdparty.testcontainers.version>
+      <thirdparty.jakarta.activation-api.version>2.1.2</thirdparty.jakarta.activation-api.version>
       <maven.compiler.target>1.8</maven.compiler.target>
       <maven.compiler.source>1.8</maven.compiler.source>
       <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -86,6 +87,12 @@
            <artifactId>bcprov-jdk15on</artifactId>
            <version>${thirdparty.bouncycastle.version}</version>
        </dependency>
+       <dependency>
+           <groupId>jakarta.activation</groupId>
+           <artifactId>jakarta.activation-api</artifactId>
+           <version>${thirdparty.jakarta.activation-api.version}</version>
+       </dependency>
+
 
       <!-- Test dependencies. -->
       <!-- 3rdparty dependencies. -->

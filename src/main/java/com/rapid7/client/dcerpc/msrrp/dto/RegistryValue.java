@@ -20,7 +20,7 @@
  */
 package com.rapid7.client.dcerpc.msrrp.dto;
 
-import javax.activation.UnsupportedDataTypeException;
+import jakarta.activation.UnsupportedDataTypeException;
 import java.io.IOException;
 import java.io.UnsupportedEncodingException;
 import java.math.BigInteger;
